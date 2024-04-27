@@ -8,3 +8,4 @@ export function RegisterInput (props) {
     </p>
   )
 }
+export default RegisterInput

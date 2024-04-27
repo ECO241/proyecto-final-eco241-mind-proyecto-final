@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
 
 export function Button(props) {
-    const {title} = props
+    const {title,image,url} = props
 return (
    <button className="buttons">
-        <Link to=""> <p>{title}</p> </Link>
+        <Link to= {url}> <p>{title}</p> </Link>
+        <img src={image}></img>
    </button>
 )
 }

@@ -1,8 +1,10 @@
+import Button from "../../components/Button/Button";
+import "./Register.css"
 
 
 export function Register () {
     return (
-      <section>
+      <section className="big-register">
          <p className='title-message'>
           Let´s get started!
         </p>
@@ -11,10 +13,11 @@ export function Register () {
           Please,
         </p>
         <h1 className='bot-message'>Register</h1>
-        <section className='form-regis'>
-       
+        <section className='button-regis'>
+        <Button image="/src/assets/mail.png"></Button>
+        <Button url ="/UserRegister" image="/src/assets/person.png"></Button>
+        </section>
         <h3 className="account">Already have an account?Sign In</h3>
-      </section>
       </section> 
     )
   }
