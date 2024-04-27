@@ -11,8 +11,8 @@ export function UserRegister () {
         <RegisterInput title="Email"></RegisterInput>
         <RegisterInput title= "Password"></RegisterInput>
       </section>
-      <Button title="Next->"></Button>
       <Button title= "Back"></Button>
+      <Button title="Next->"></Button>
       </section>
     </>
   )
