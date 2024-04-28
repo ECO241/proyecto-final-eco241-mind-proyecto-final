@@ -19,7 +19,7 @@ export function ProfileRegister () {
         <RegisterInput title= "Gender*"></RegisterInput>
       </section>
       <Button url ="/UserRegister" title= "Back"></Button>
-      <Button title="Next->"></Button>
+      <Button url ="/PreferencesRegister" title="Next->"></Button>
       </section>
     </>
   )
