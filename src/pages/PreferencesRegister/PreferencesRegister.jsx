@@ -1,4 +1,4 @@
-
+import "./PreferencesRegister.css"
 import Button from '../../components/Button/Button'
 import { RegisterSelect } from '../../components/RegisterSelect/RegisterSelect'
 
@@ -6,12 +6,12 @@ import { RegisterSelect } from '../../components/RegisterSelect/RegisterSelect'
 export function PreferencesRegister () {
   return (
     <>
-      <section className='big-user'>
-        <h1 className='user-title'>
+      <section className='big-preferences'>
+        <h1 className='preferences-title'>
           Register
         </h1>
-        <h2 className='user-subtitle'>Select your preferences</h2>
-        <section className='form-regis'>
+        <h2 className='preferences-subtitle'>Select your preferences</h2>
+        <section className='form-preferences'>
           <RegisterSelect
             title='Why you choose to relax' options1='Strees' options2='Calm'
             options3='Relax' options4='Ansiety'
@@ -31,8 +31,8 @@ export function PreferencesRegister () {
 
         </section>
         <section>
-        <Button url ="" title= "Back"></Button>
-        <Button url ="" title="Next->"></Button>
+        <Button url ="/ProfileRegister" title= "Back"></Button>
+        <Button url ="/Home" title="Next->"></Button>
       </section>
       </section>
     </>

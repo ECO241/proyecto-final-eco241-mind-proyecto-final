@@ -7,12 +7,12 @@ import "./ProfileRegister.css"
 export function ProfileRegister () {
   return (
     <>
-    <section className='big-user'>
-      <section className='form-regis'>
-      <h1 className='register-title'>
+    <section className='big-profile'>
+      <section className='form-profile'>
+      <h1 className='profile-title'>
              Register
         </h1>
-        <h2 className='register-subtitle'>One Step more</h2>
+        <h2 className='profile-subtitle'>One Step more</h2>
         <RegisterInput title="Name*"></RegisterInput>
         <RegisterInput title= "LastName*"></RegisterInput>
         <RegisterInput title= "Birth*"></RegisterInput>

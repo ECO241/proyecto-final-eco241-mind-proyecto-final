@@ -1,5 +1,6 @@
 import Button from '../../components/Button/Button'
 import RegisterInput from "../../components/RegisterInput/RegisterInput"
+import "./UserRegister.css"
 
 
 
