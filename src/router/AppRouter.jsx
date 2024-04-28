@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Mind, Register,UserRegister,ProfileRegister,PreferencesRegister,Home} from '../pages';
+import { Mind, Register,UserRegister,ProfileRegister,PreferencesRegister,Home, Login} from '../pages';
 
 
 export function AppRouter() {
@@ -11,6 +11,7 @@ export function AppRouter() {
         <Route path='/UserRegister' element={<UserRegister />} />
         <Route path='/ProfileRegister' element={<ProfileRegister />} />
         <Route path='/PreferencesRegister' element={<PreferencesRegister />} />
+        <Route path='/Login' element={<Login />} />
         <Route path='/Home' element={<Home />} />
         <Route path='/*' element={<p>404</p>} />
       </Routes>
