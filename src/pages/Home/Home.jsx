@@ -14,16 +14,22 @@ export function Home () {
         <p className='mood-home'>Choose the mood you desire</p>
         </section>
         <section className='button-home'>
-        <Button image="/src/assets/Calm.png"></Button>
+        <Button  image="/src/assets/Calm.png"></Button>
         <Button image="/src/assets/Sleep.png"></Button>
         <Button image="/src/assets/Relax.png"></Button>
         <Button image="/src/assets/Focus.png"></Button>
+        </section>
+        <section>
+          <h2>Calm</h2>
+          <h2>Sleep</h2>
+          <h2>Relax</h2>
+          <h2>Focus</h2>
         </section>
         <section className="meditation-home">
         <h3 className="account">Check our meditation select for you</h3>
         </section>
         <section className="method-home">
-        <Button image = "/src/assets/mail.png" title = "Start my own method"></Button>
+        <Button url="/Calm" image = "/src/assets/mail.png" title = "Start my own method"></Button>
         </section>
       </section> 
     )
