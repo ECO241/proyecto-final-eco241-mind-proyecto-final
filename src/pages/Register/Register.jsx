@@ -19,7 +19,7 @@ export function Register () {
         </section>
         <section className="sign-in">
         <h3 className="account">Already have an account?</h3>
-        <Button url = "/Login" title="Sign In"></Button>
+        <Button url = "/Login" title="Sign In" onClick="funcion()"></Button>
         </section>
       </section> 
     )
