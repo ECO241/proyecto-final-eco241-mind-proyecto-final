@@ -1,0 +1,8 @@
+export * from "./Mind/Mind.jsx"
+export * from "./Register/Register.jsx"
+export * from "./UserRegister/UserRegister.jsx"
+export * from "./ProfileRegister/ProfileRegister.jsx"
+export * from "./PreferencesRegister/PreferencesRegister.jsx"
+export * from "./Home/Home.jsx"
+export * from "./Login/Login.jsx"
+export *from "./Calm/Calm.jsx"
