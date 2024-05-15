@@ -1,7 +1,21 @@
 import express from 'express'
 import cors from 'cors'
 
+import users from './routes/users.js'
 
+const app = express()
+app.use(cors())
+app.use(express.json())
+
+app.use('/users', users);
+
+const port = 5500
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`)
+})
+
+
+/*
 import { createClient } from '@supabase/supabase-js'
 
 const supabaseUrl = 'https://thkktgjsoffghpbymfjg.supabase.co'
@@ -17,20 +31,5 @@ async function pruebaNombre() {
     console.log(error)
     return data
 }
-
 console.log(pruebaNombre())
-
-const app = express()
-
-app.use(cors())
-
-app.use(express.json())
-
-app.get('/', (req, res) => {
-    res.json("Pruebs")
-})
-
-const port = 5500
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`)
-})
+*/

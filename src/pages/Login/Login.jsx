@@ -17,12 +17,11 @@ export function Login () {
   const handleClickPassword = (e) => {
     setPassword(e.target.value)  
   }
-
   const handleLogin = async () => {
     try {
       const { user, error } = await supabase.auth.signIn({
-        email,
-        password,
+        email: email,
+        password: password,
       });
 
       if (error) {
@@ -30,7 +29,7 @@ export function Login () {
       }
 
       console.log('User logged in successfully:', user);
-      // Aquí puedes redirigir al usuario a la página de inicio
+      // Aquí puedes redirigir al usuario a la página de inicio u otra página de tu aplicación
     } catch (error) {
       console.error('Error logging in:', error.message);
       setError(error.message);
@@ -50,7 +49,6 @@ export function Login () {
       <Button url ="/" title= "Back"></Button>
       <Link to ="/ProfileRegister">
         <button onClick={handleLogin}>Next</button>
-        <button >Next</button>
         </Link>
       </section>
     </>

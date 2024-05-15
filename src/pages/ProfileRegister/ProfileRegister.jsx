@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 
 export function ProfileRegister () {
-  const [name, setName] = useState('');
+  const [name, setName] = useState('');   
   const [last, setLast] = useState('');
   const [birth, setBirth] = useState('');
   const [gender, setGender] = useState('');
