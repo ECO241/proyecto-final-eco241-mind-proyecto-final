@@ -4,12 +4,12 @@ import "./Mind.css"
 export function Mind () {
     return (
       <section className="big-mind">
-        <img className="img-mind" src="/src/assets/Logo.png" alt="Mind Logo" />
-        <p className='top-message'>
-          Welcome to
-        </p>
-        <h1 className='bot-message'>Mind</h1>
-        <Button url="/register" title="Continue ->"></Button>
+        <img className="logoImage" src="/src/assets/Logo.png" alt="Mind Logo" />
+        <h1 className='bot-message'>Welcome to</h1>
+        <section>
+        <img className="logoTextImage" src="/src/assets/LogoText.png" alt="Mind Logo" />
+        </section>
+        <Button  variant="our-button" url="/register" title="Continue"></Button>
       </section>
     )
   }

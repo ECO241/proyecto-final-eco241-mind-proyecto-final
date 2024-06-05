@@ -1,0 +1,102 @@
+.login-title{
+    position: absolute;
+    width: 116px;
+    height: 50px;
+    left: calc(50% - 106px/2 - 0.5px);
+    top: 196px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B3F6FF;
+}
+
+.login-subtitle{
+    position: absolute;
+    width: 229px;
+    height: 28px;
+    left: calc(50% - 226px/2 - 1px);
+    top: 278px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: calc(50% - 91px/2 + 110.5px);
+    top: 620px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #196A88;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    border-color: transparent;
+}
+
+.back-login button{
+    font-weight: 800;
+    border-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    right: calc(50% - 91px/2 + 110.5px);
+    top: 620px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.back-login p{
+    color: #196A88;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.password, .email{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 27px;
+    background: #003245;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 5px 20px;
+    gap: 5px;
+}
+
+.password{
+    top: 486px;
+}
+
+.email{
+    top: 386px;
+}

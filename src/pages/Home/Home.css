@@ -1,7 +1,197 @@
-.big-home {
-    margin-left: 1000px;
+.logo-home{
+    position: absolute;
+    width: 55px;
+    height: 33.92px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    left: calc(50% - 60px / 2);
+    top: 3%;
 }
 
-.prueba {
-    background-color: blue;
+.user-calm{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    left: calc(50% - -270px / 2);
+    top: 3.2%;
+}
+
+.title-home{
+    width: 151px;
+    height: 38px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #B2F6FF;
+    position: absolute;
+    transform: translateX(27%);
+    top: 15%;
+}
+
+.top-user{
+    width: 69px;
+    height: 25px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 38px;
+    color: #B2F6FF;
+    position: absolute;
+    transform: translateX(65%);
+    top: 21%;
+}
+
+.mood-home{
+    position: absolute;
+    width: 240px;
+    height: 16px;
+    left: 11%;
+    top: 30%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffffa6;
+}
+
+.button-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    position: absolute;
+    width: 100%;
+    top: 40%; 
+    transform: translateY(-50%); 
+}
+
+.calm-icon button, .sleep-icon button, .relax-icon button, .focus-icon button{
+    width: 63px; 
+    height: 63px; 
+    border: 2px solid white; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.calm-icon img, .sleep-icon img, .relax-icon img, .focus-icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.calm-label, .sleep-label, .relax-label, .focus-label{
+    position: absolute;
+    width: 199px;
+    height: 16px;
+    top: 43.5%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    color: #ffffff;
+}
+
+.calm-label{
+    left: 13%;
+}
+
+.sleep-label{
+    left: 34.5%;
+}
+
+.relax-label{
+    left: 56%;
+}
+
+.focus-label{
+    left: 77%;
+}
+
+.account2{
+    position: absolute;
+    width: 240px;
+    height: 16px;
+    transform: translateX(16%);
+    top: 50.5%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffffa6;
+}
+
+.man-calm{
+    position: absolute;
+    width: 320px;
+    height: 181px;
+    left: calc(50% - 320px/2);
+    top: 56.5%;
+    border-radius: 10px;
+}
+
+.choose-own button{
+    color: #196A88;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 340px;
+    height: 35px;
+    left: calc(50% - 340px/2);
+    top: 82%;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+.choose-own p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #196A88;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    border-color: transparent;
 }

@@ -1,0 +1,26 @@
+/* src/components/Audio/Audio.css */
+.audio-card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.audio-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.audio-time {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.audio-player {
+    width: 100%;
+    border-radius: 5px;
+}

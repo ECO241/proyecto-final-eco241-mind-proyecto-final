@@ -1,3 +1,130 @@
-.big-mind {
-    margin-left: 1100px;
+@import URL("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import URL("https://fonts.gstatic.com");
+@import URL("https://fonts.googleapis.com");
+
+body{
+    background-color: #196A88;
+}
+
+.logoImage{
+    position: absolute;
+    left: calc(50% - 160px / 2);
+    width: 165px;
+    height: 102px;
+    right: 28.77%;
+    top: 28.95%;
+    bottom: 52.99%;
+}
+
+.logoTextImage{
+  position: absolute;
+  width: 163px;
+  height: 54px;
+  left: calc(50% - 160px/2);
+  top: 420px;
+}
+
+.bot-message{
+    position: absolute;
+    width: 127px;
+    height: 28px;
+    left: calc(50% - 127px/2 - 0.5px);
+    top: 360px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.our-button button{
+    display: flex;
+      color: #196A88;
+      background-color: #FFFFFF;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      position: absolute;
+      width: 118px;
+      height: 26px;
+      left: calc(50% - 118px/2 - 0.5px);
+      top: 537px;
+      border-radius: 100px;
+      border-color: transparent;
+}
+
+.our-button p{
+    padding: 5px 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+@media (min-width:768px){
+    .logoImage{
+        position: absolute;
+        left: calc(50% - 160px / 2);
+        width: 165px;
+        height: 102px;
+        right: 28.77%;
+        top: 23.95%;
+        bottom: 52.99%;
+    }
+    
+    .logoTextImage{
+      position: absolute;
+      width: 163px;
+      height: 54px;
+      left: calc(50% - 160px/2);
+      top: 46%;
+    }
+    
+    .bot-message{
+        position: absolute;
+        width: 127px;
+        height: 28px;
+        left: calc(50% - 127px/2 - 0.5px);
+        top: 40%;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .our-button button{
+        display: flex;
+          color: #196A88;
+          background-color: #FFFFFF;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          position: absolute;
+          width: 118px;
+          height: 26px;
+          left: calc(50% - 118px/2 - 0.5px);
+          top: 57%;
+          border-radius: 100px;
+          border-color: transparent;
+    }
+    
+    .our-button p{
+        padding: 5px 20px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
 }

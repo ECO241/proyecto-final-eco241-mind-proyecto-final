@@ -1,3 +1,295 @@
-.big-user {
-    margin-left: 400px;
+.user-title{
+    position: absolute;
+    width: 116px;
+    height: 50px;
+    left: calc(50% - 163px/2 - 0.5px);
+    top: 10%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B3F6FF;
+}
+
+.user-subtitle{
+    position: absolute;
+    width: 229px;
+    height: 28px;
+    left: calc(50% - 226px/2 - 1px);
+    top: 20%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.next-btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: calc(50% - 91px/2 + 110.5px);
+    top: 73.46%;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #196A88;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    border-color: transparent;
+}
+
+.back-btn2{
+    font-weight: 800;
+    border-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    right: calc(50% - 91px/2 + 110.5px);
+    top: 73.46%;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #196A88;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.back-register2 button{
+    font-weight: 800;
+    border-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 5px;
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    right: calc(50% - 91px/2 + 110.5px);
+    top: 73.46%;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.back-register2 p{
+    color: #196A88;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.password2, .email2{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 27px;
+    background: #003245;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 5px 20px;
+    gap: 5px;
+}
+
+.password2{
+    top: 53%;
+}
+
+.email2{
+    top: 42%;
+}
+
+.email-label, .password-label{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    left: calc(50% - 306px/2 - 1px);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B3F6FF;
+}
+
+.email-label{
+    top: 38%;
+}
+
+.password-label{
+    top: 50%;
+}
+
+.name1{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 27px;
+    top: 55%;
+    background: #003245;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 5px 20px;
+    gap: 5px;
+}
+
+.name, .lastname, .date{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 27px;
+    background: #003245;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 5px 20px;
+    gap: 5px;
+}
+
+.name{
+    top: 32%;
+}
+
+.lastname{
+    top: 42%;
+}
+
+.date{
+    top: 52%;
+}
+
+.select{
+    top: 62%;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    width: 334px;
+    height: 41px;
+    background: #003245;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 5px 20px;
+    gap: 5px;
+    color: #B3F6FF;
+}
+
+.name-label, .lastname-label, .date-label, .select-label{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    left: calc(50% - 306px/2 - 1px);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B3F6FF;
+}
+
+.name-label{
+    top: 29%;
+}
+
+.lastname-label{
+    top: 39%;
+}
+
+.date-label{
+    top: 49%;
+}
+
+.select-label{
+    top: 59%;
+}
+
+.Q1-label, .Q2-label, .Q3-label, .Q4-label{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    left: calc(50% - 306px/2 - 1px);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B3F6FF;
+}
+
+.Q1-label{
+    top: 30%;
+}
+
+.Q2-label{
+    top: 40%;
+}
+
+.Q3-label{
+    top: 50%;
+}
+
+.Q4-label{
+    top: 60%;
+}
+
+.Q1, .Q2, .Q3, .Q4{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    width: 334px;
+    height: 41px;
+    background: #003245;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 5px 20px;
+    gap: 5px;
+    color: #B3F6FF;
+}
+
+.Q1{
+    top: 33%;
+}
+
+.Q2{
+    top: 43%;
+}
+
+.Q3{
+    top: 53%;
+}
+
+.Q4{
+    top: 63%;
 }
