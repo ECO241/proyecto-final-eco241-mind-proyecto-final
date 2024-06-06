@@ -5,9 +5,24 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      const socket = io('http://localhost:5500');
+
+      socket.on('connect', () => {
+          console.log('Conectado al servidor');
+      });
+
+      socket.on('disconnect', () => {
+          console.log('Desconectado del servidor');
+      });
+
+      // Emitir una orden de prueba
+      socket.emit('orderForArduino', 'L');
+  </script>
   </body>
 </html>

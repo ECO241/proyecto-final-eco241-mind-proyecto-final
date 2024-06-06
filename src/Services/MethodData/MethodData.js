@@ -1,3 +1,5 @@
+import crypto from 'crypto';
+
 export const MethodData = [
     {
         id: crypto.randomUUID(),
@@ -14,10 +16,12 @@ export const MethodData = [
     
     {
         id: crypto.randomUUID(),
-        audio: "http://localhost:5500/static/Delincuente%20Audio%20Prueba.mp3",
+        audio: "http://localhost:5500/static/Anger-Meditation.mp3",
         category: "Anger",
         subcategory: "Meditation"
     },
+
+
     {
         id: crypto.randomUUID(),
         audio: "http://localhost:5500/static/Stress-Nature%20Audio.mp3",
@@ -52,7 +56,7 @@ export const MethodData = [
     
     {
         id: crypto.randomUUID(),
-        audio: "http://localhost:5500/static/Tumba%20la%20casa%20Audio%20Prueba.mp3",
+        audio: "http://localhost:5500/static/Relax-Meditation.mp3",
         category: "Relax",
         subcategory: "Meditation"
     }   

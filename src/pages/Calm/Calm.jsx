@@ -1,9 +1,11 @@
-import './Calm.css'
-import { Audio } from '../../components/Audio/Audio'
-import { dataCalma } from '../../Services/DataButtons/calm'
-import { Link } from 'react-router-dom'
+import './Calm.css';
+import { Audio } from '../../components/Audio/Audio';
+import { dataCalma } from '../../Services/DataButtons/calm';
+import { Link } from 'react-router-dom';
+ // Asegúrate de que el puerto aquí coincide con el del servidor
 
 export function Calm() {
+  
   return (
     <div className="calm-page">
       <section className='big-calm'>
@@ -31,5 +33,5 @@ export function Calm() {
         </div>
       </section>
     </div>
-  )
+  );
 }

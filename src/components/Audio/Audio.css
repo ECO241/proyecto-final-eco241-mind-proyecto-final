@@ -23,4 +23,11 @@
 .audio-player {
     width: 100%;
     border-radius: 5px;
+    height: 30px;
+}
+
+.button-ligts{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
 }

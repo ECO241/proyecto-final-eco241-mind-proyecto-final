@@ -1,9 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import Button from "../../components/Button/Button";
+import { Link } from "react-router-dom";
 import "./MethodPage.css";
 import { useState, useEffect } from "react";
 
 export function MethodPage() {
+
   const [matchingMethods, setMatchingMethods] = useState([]);
   const [why, setWhy] = useState("");
   const [method, setMethod] = useState("");
@@ -46,28 +47,39 @@ export function MethodPage() {
 
   return (
     <>
-      <h4>
-        Basándonos en tu selección de sonidos preferidos, hemos extraído este
-        audio de nuestra base de datos que contribuirá a tu bienestar
-      </h4>
-      <Button />
-
-      {error === null && (
+{error === null && (
         <>
           <div>
-            <h5>Tus preferencias:</h5>
-            <p>Why: {why}</p>
-            <p>Method: {method}</p>
+            <div className="top-div">
+            <Link to="/Home">
+          <img className="back-method" src='/src/assets/Back-small2.png' alt='Back' />
+        </Link>
+          <img className="logo-calm" src='/src/assets/Logo2.png' alt='Logo' />
+        <h1 className='calm-title'>MIND</h1>
+        <img className="yourbck-img" src='/src/assets/Custommeditate.png' alt='Calm' />
+        </div>
+        <h1 className="foryou">
+        Crafted for Your Well-being
+        </h1>
+        <h4 className="foryou-p">
+        A Personalized Audio Selection from Our Database Based on Your Favorite Sounds
+      </h4>
+      <div className="mood-container">
+            <p className="why">Emotion:    {why}</p>
+            <p className="method">Genre:    {method}</p>
+            </div>
           </div>
-          <h5>Audios recomendados:</h5>
+          <h5 className="recomendation">Our recomendation</h5>
           <p>
-            {method.category} - {method.subcategory}
+            {method.category} {method.subcategory}
           </p>
           {music !== null && (
+            <div className="audio-container">
             <audio controls>
-              <source src={music} type="audio/mp3" />
-              Tu navegador no soporta el elemento de audio.
+                <source src={music} type="audio/mp3" />
+                Tu navegador no soporta el elemento de audio.
             </audio>
+        </div>
           )}
         </>
       )}
