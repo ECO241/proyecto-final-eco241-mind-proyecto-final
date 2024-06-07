@@ -26,8 +26,38 @@
     height: 30px;
 }
 
-.button-ligts{
-    display: flex;
-    flex-direction: row;
-    gap: 2%;
+.button-lights{
+    
+        
+        display: flex; /* Cambiar display a flex */
+        flex-direction: row; /* Asegurar que los hijos se dispongan en una fila */
+        background: #FFFFFF;
+        border-radius: 50px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        border-color: transparent;
+        margin-top: 5%;
+       
+   
+}
+
+.left-audio {
+    background: #FFFFFF;
+    color: #196A88;
+    font-size: 12px;
+   /* Ajustar el padding si es necesario */
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.right-audio {
+    background: #FFFFFF;
+    color: #196A88;
+    font-size: 12px;
+   /* Ajustar el padding si es necesario */
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }

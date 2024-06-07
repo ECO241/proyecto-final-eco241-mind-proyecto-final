@@ -45,8 +45,8 @@ export function Audio(props) {
         Your browser does not support the audio element.
       </audio>
       <div className='button-lights'>
-        <button onClick={() => handlePlay('L')}>Enciende las luces</button> {/* Botón para encender */}
-        <button  onClick={() => handlePlay('O')}>Apaga las luces</button> {/* Botón para apagar */}
+        <button className='left-audio' onClick={() => handlePlay('L')}>Enciende las luces</button> {/* Botón para encender */}
+        <button className='right-audio' onClick={() => handlePlay('O')}>Apaga las luces</button> {/* Botón para apagar */}
       </div>
     </div>
   );
