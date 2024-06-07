@@ -2,7 +2,10 @@ Mind
 
 
 La aplicación "Mind" es una plataforma innovadora diseñada para ayudar, relajar y calmar a los usuarios mediante el uso de audios y luces controladas por un dispositivo Arduino. Con un enfoque en el bienestar y la comodidad, "Mind" ofrece una experiencia única para quienes buscan aliviar el estrés y mejorar su estado de ánimo.
-Podemos encontrala en la rama ProyectoFinal 
+
+Podemos encontrala en la rama *ProyectoFinal* 
+
+
 Funcionalidades Principales
 
     Reproducción de audios relajantes.
